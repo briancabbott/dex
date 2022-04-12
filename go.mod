@@ -3,13 +3,13 @@ module github.com/briancabbott/dex
 go 1.17
 
 require (
-	entgo.io/ent v0.10.1
+	github.com/briancabbott/entgo v1.0.1
 	github.com/AppsFlyer/go-sundheit v0.5.0
 	github.com/Masterminds/semver v1.5.0
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/beevik/etree v1.1.0
-	github.com/coreos/go-oidc/v3 v3.1.0
 	github.com/briancabbott/dex/api/v2 v2.1.0
+	github.com/coreos/go-oidc/v3 v3.1.0
 	github.com/felixge/httpsnoop v1.0.2
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-ldap/ldap/v3 v3.4.2
@@ -18,7 +18,7 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/kylelemons/godebug v1.1.0
-	github.com/lib/pq v1.10.4
+	github.com/lib/pq v1.10.5
 	github.com/mattermost/xml-roundtrip-validator v0.1.0
 	github.com/mattn/go-sqlite3 v1.14.11
 	github.com/oklog/run v1.1.0
@@ -40,7 +40,7 @@ require (
 )
 
 require (
-	ariga.io/atlas v0.3.7-0.20220303204946-787354f533c3 // indirect
+	ariga.io/atlas v0.3.8-0.20220408073907-ec24677b8189 // indirect
 	cloud.google.com/go/compute v1.5.0 // indirect
 	github.com/Azure/go-ntlmssp v0.0.0-20200615164410-66371956d46c // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
