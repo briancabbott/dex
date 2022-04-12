@@ -16,7 +16,7 @@ $( shell mkdir -p bin )
 user=$(shell id -u -n)
 group=$(shell id -g -n)
 
-# export GOBIN=$(PWD)/bin
+export GOBIN=$(PWD)/bin
 
 LD_FLAGS="-w -X main.version=$(VERSION)"
 

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/oauth2client"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // OAuth2Client is the model entity for the OAuth2Client schema.

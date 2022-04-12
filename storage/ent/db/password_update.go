@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/briancabbott/dex/storage/ent/db/password"
+	"github.com/briancabbott/dex/storage/ent/db/predicate"
 	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
 	"github.com/briancabbott/entgo/schema/field"
-	"github.com/briancabbott/dex/storage/ent/db/password"
-	"github.com/briancabbott/dex/storage/ent/db/predicate"
 )
 
 // PasswordUpdate is the builder for updating Password entities.

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/devicetoken"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // DeviceToken is the model entity for the DeviceToken schema.

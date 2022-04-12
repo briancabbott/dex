@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/refreshtoken"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // RefreshToken is the model entity for the RefreshToken schema.

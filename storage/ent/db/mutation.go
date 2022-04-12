@@ -21,9 +21,8 @@ import (
 	"github.com/briancabbott/dex/storage/ent/db/password"
 	"github.com/briancabbott/dex/storage/ent/db/predicate"
 	"github.com/briancabbott/dex/storage/ent/db/refreshtoken"
+	ent "github.com/briancabbott/entgo"
 	"gopkg.in/square/go-jose.v2"
-
-	"github.com/briancabbott/entgo"
 )
 
 const (

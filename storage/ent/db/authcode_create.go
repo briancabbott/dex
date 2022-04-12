@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/briancabbott/dex/storage/ent/db/authcode"
 	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
 	"github.com/briancabbott/entgo/schema/field"
-	"github.com/briancabbott/dex/storage/ent/db/authcode"
 )
 
 // AuthCodeCreate is the builder for creating a AuthCode entity.

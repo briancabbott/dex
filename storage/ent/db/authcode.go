@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/authcode"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // AuthCode is the model entity for the AuthCode schema.

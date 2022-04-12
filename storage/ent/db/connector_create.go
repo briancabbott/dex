@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/briancabbott/dex/storage/ent/db/connector"
 	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
 	"github.com/briancabbott/entgo/schema/field"
-	"github.com/briancabbott/dex/storage/ent/db/connector"
 )
 
 // ConnectorCreate is the builder for creating a Connector entity.

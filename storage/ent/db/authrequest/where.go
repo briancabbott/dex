@@ -5,8 +5,8 @@ package authrequest
 import (
 	"time"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/predicate"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // ID filters vertices based on their ID field.

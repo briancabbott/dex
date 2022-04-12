@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/authrequest"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // AuthRequest is the model entity for the AuthRequest schema.

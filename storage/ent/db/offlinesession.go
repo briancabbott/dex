@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/offlinesession"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // OfflineSession is the model entity for the OfflineSession schema.

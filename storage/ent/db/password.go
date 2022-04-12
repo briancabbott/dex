@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/password"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // Password is the model entity for the Password schema.

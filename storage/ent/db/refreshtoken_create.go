@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/briancabbott/dex/storage/ent/db/refreshtoken"
 	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
 	"github.com/briancabbott/entgo/schema/field"
-	"github.com/briancabbott/dex/storage/ent/db/refreshtoken"
 )
 
 // RefreshTokenCreate is the builder for creating a RefreshToken entity.

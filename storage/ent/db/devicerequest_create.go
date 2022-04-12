@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/briancabbott/dex/storage/ent/db/devicerequest"
 	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
 	"github.com/briancabbott/entgo/schema/field"
-	"github.com/briancabbott/dex/storage/ent/db/devicerequest"
 )
 
 // DeviceRequestCreate is the builder for creating a DeviceRequest entity.

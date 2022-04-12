@@ -3,12 +3,12 @@ module github.com/briancabbott/dex
 go 1.17
 
 require (
-	github.com/briancabbott/entgo v1.0.1
 	github.com/AppsFlyer/go-sundheit v0.5.0
 	github.com/Masterminds/semver v1.5.0
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/beevik/etree v1.1.0
 	github.com/briancabbott/dex/api/v2 v2.1.0
+	github.com/briancabbott/entgo v1.0.1
 	github.com/coreos/go-oidc/v3 v3.1.0
 	github.com/felixge/httpsnoop v1.0.2
 	github.com/ghodss/yaml v1.0.0
@@ -74,7 +74,7 @@ require (
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/shopspring/decimal v1.2.0 // indirect
-	github.com/spf13/cast v1.3.1 // indirect
+	github.com/spf13/cast v1.4.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/zclconf/go-cty v1.8.0 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.2 // indirect
