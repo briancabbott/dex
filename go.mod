@@ -1,4 +1,4 @@
-module github.com/dexidp/dex
+module github.com/briancabbott/dex
 
 go 1.17
 
@@ -9,7 +9,7 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/beevik/etree v1.1.0
 	github.com/coreos/go-oidc/v3 v3.1.0
-	github.com/dexidp/dex/api/v2 v2.1.0
+	github.com/briancabbott/dex/api/v2 v2.1.0
 	github.com/felixge/httpsnoop v1.0.2
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-ldap/ldap/v3 v3.4.2
@@ -91,4 +91,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
 
-replace github.com/dexidp/dex/api/v2 => ./api/v2
+replace github.com/briancabbott/dex/api/v2 => ./api/v2

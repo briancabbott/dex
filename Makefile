@@ -3,20 +3,20 @@ OS = $(shell uname | tr A-Z a-z)
 export PATH := $(abspath bin/protoc/bin/):$(abspath bin/):${PATH}
 
 PROJ=dex
-ORG_PATH=github.com/dexidp
+ORG_PATH=github.com/briancabbott
 REPO_PATH=$(ORG_PATH)/$(PROJ)
 
 VERSION ?= $(shell ./scripts/git-version)
 
-DOCKER_REPO=quay.io/dexidp/dex
-DOCKER_IMAGE=$(DOCKER_REPO):$(VERSION)
+# DOCKER_REPO=quay.io/dexidp/dex
+# DOCKER_IMAGE=$(DOCKER_REPO):$(VERSION)
 
 $( shell mkdir -p bin )
 
 user=$(shell id -u -n)
 group=$(shell id -g -n)
 
-export GOBIN=$(PWD)/bin
+# export GOBIN=$(PWD)/bin
 
 LD_FLAGS="-w -X main.version=$(VERSION)"
 

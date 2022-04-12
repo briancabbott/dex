@@ -29,10 +29,10 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/dexidp/dex/api/v2"
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/server"
-	"github.com/dexidp/dex/storage"
+	"github.com/briancabbott/dex/api/v2"
+	"github.com/briancabbott/dex/pkg/log"
+	"github.com/briancabbott/dex/server"
+	"github.com/briancabbott/dex/storage"
 )
 
 type serveOptions struct {

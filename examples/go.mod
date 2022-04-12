@@ -1,10 +1,10 @@
-module github.com/dexidp/dex/examples
+module github.com/briancabbott/dex/examples
 
 go 1.17
 
 require (
 	github.com/coreos/go-oidc/v3 v3.1.0
-	github.com/dexidp/dex/api/v2 v2.0.0
+	github.com/briancabbott/dex/api/v2 v2.0.0
 	github.com/spf13/cobra v1.3.0
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/grpc v1.43.0

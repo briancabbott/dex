@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent/db"
+	"github.com/briancabbott/dex/storage"
+	"github.com/briancabbott/dex/storage/ent/db"
 )
 
 const keysRowID = "keys"

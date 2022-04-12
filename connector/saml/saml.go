@@ -19,9 +19,9 @@ import (
 	dsig "github.com/russellhaering/goxmldsig"
 	"github.com/russellhaering/goxmldsig/etreeutils"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/groups"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/briancabbott/dex/connector"
+	"github.com/briancabbott/dex/pkg/groups"
+	"github.com/briancabbott/dex/pkg/log"
 )
 
 // nolint

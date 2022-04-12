@@ -8,15 +8,15 @@ body:
 
       Please describe what you would like to change/add and why in detail by filling out the template below.
 
-      If you are not sure if your request fits into Dex, you can contact us via the available [support channels](https://github.com/dexidp/dex/issues/new/choose).
+      If you are not sure if your request fits into Dex, you can contact us via the available [support channels](https://github.com/briancabbott/dex/issues/new/choose).
 - type: checkboxes
   attributes:
     label: Preflight Checklist
     description: Please ensure you've completed all of the following.
     options:
-      - label: I agree to follow the [Code of Conduct](https://github.com/dexidp/dex/blob/master/.github/CODE_OF_CONDUCT.md) that this project adheres to.
+      - label: I agree to follow the [Code of Conduct](https://github.com/briancabbott/dex/blob/master/.github/CODE_OF_CONDUCT.md) that this project adheres to.
         required: true
-      - label: I have searched the [issue tracker](https://www.github.com/dexidp/dex/issues) for an issue that matches the one I want to file, without success.
+      - label: I have searched the [issue tracker](https://www.github.com/briancabbott/dex/issues) for an issue that matches the one I want to file, without success.
         required: true
 - type: textarea
   attributes:

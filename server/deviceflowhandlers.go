@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/storage"
+	"github.com/briancabbott/dex/pkg/log"
+	"github.com/briancabbott/dex/storage"
 )
 
 type deviceCodeResponse struct {

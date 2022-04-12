@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dexidp/dex/connector"
+	"github.com/briancabbott/dex/connector"
 )
 
 type testResponse struct {
