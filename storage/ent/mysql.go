@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	entSQL "entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/schema"
+	entSQL "github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 	"github.com/go-sql-driver/mysql"
 
 	// Register postgres driver.

@@ -9,7 +9,7 @@ import (
 	// required by schema hooks.
 	_ "github.com/briancabbott/dex/storage/ent/db/runtime"
 
-	"entgo.io/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 )
 
 type (

@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"entgo.io/ent/dialect"
+	"github.com/briancabbott/entgo/dialect"
 )
 
 var textSchema = map[string]string{

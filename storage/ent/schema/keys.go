@@ -1,8 +1,8 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/field"
 	"gopkg.in/square/go-jose.v2"
 
 	"github.com/briancabbott/dex/storage"

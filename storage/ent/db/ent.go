@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/dex/storage/ent/db/authcode"
 	"github.com/briancabbott/dex/storage/ent/db/authrequest"
 	"github.com/briancabbott/dex/storage/ent/db/connector"

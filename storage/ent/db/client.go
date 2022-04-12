@@ -20,8 +20,8 @@ import (
 	"github.com/briancabbott/dex/storage/ent/db/password"
 	"github.com/briancabbott/dex/storage/ent/db/refreshtoken"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // Client is the client that holds all ent builders.
